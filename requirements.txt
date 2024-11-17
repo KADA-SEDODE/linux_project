@@ -1,0 +1,32 @@
+# Flask pour la webapp
+Flask==3.0.0
+
+# pandas pour la manipulation des données
+pandas==2.0.3
+
+# plotly pour la visualisation des graphiques
+plotly==5.18.0
+
+# wordcloud pour générer les nuages de mots (si utilisé dans votre webapp)
+wordcloud==1.9.2
+
+# spacy pour le traitement du langage naturel (NLP)
+spacy==3.7.2
+
+# modèle de langue française pour spacy
+fr-core-news-md @ https://github.com/explosion/spacy-models/releases/download/fr_core_news_md-3.7.0/fr_core_news_md-3.7.0-py3-none-any.whl
+
+# Pillow pour la manipulation des images (nuages de mots)
+Pillow==10.1.0
+
+# tabulate pour afficher des tableaux dans le terminal
+tabulate==0.9.0
+
+# typing_extensions pour les annotations avancées
+typing_extensions==4.8.0
+
+# tzdata pour la gestion des fuseaux horaires
+tzdata==2023.3
+
+# zipp pour la compatibilité avec certaines dépendances
+zipp==1.0.0
