@@ -1,0 +1,21 @@
+Ville,Nombre_declarations_ville,Type d'anomalie,Nombre_declarations_anomalie,Mois,Nombre_declarations_mois
+Paris 17,1019,Objets abandonnés,3539.0,2024-07,1684.0
+Paris 18,926,"Graffitis, tags, affiches et autocollants",3045.0,2024-06,1567.0
+Paris 11,844,Propreté,1486.0,2024-03,1339.0
+Paris 10,833,"Autos, motos, vélos, trottinettes...",665.0,2024-04,1142.0
+Paris 20,781,Voirie et espace public,429.0,2024-05,1021.0
+Paris 15,774,Mobiliers urbains,277.0,2023-11,995.0
+Paris 19,683,Activités commerciales et professionnelles,235.0,2024-01,897.0
+Paris 13,570,"Arbres, végétaux et animaux",166.0,2023-07,420.0
+Paris 12,532,Éclairage / Électricité,101.0,2024-02,263.0
+Paris 09,456,Eau,57.0,2023-08,201.0
+Paris 14,444,,,2023-10,170.0
+Paris 16,413,,,2024-08,153.0
+Paris 03,322,,,2023-12,101.0
+Paris 08,318,,,2023-09,47.0
+Paris 04,241,,,,
+Paris 05,218,,,,
+Paris 07,161,,,,
+Paris 01,159,,,,
+Paris 06,155,,,,
+Paris 02,151,,,,
