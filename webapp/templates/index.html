@@ -1,14 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <title>Visualisation des Données</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualisation Open Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        h1 {
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+        .container {
+            background: white;
+            padding: 20px 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .link {
+            display: block;
+            margin: 10px 0;
+            font-size: 18px;
+            text-decoration: none;
+            color: #2196F3;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        .link:hover {
+            color: #0d47a1;
+        }
+        .link:hover {
+            color: #0d47a1;
+            text-shadow: 0px 0px 5px rgba(33, 150, 243, 0.8);
+        }
+        .logo {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bienvenue sur l'application de visualisation</h1>
-    <ul>
-        <li><a href="/graph/graph_ville.html">Graphique des déclarations par ville</a></li>
-        <li><a href="/graph/graph_type.html">Graphique des déclarations par type d'anomalie</a></li>
-        <li><a href="/graph/graph_mois.html">Graphique des déclarations par mois</a></li>
-    </ul>
+    <div class="container">
+        <img src="/static/logo.png" alt="Logo de l'application" class="logo">
+        <h1>Bienvenue sur l'application de visualisation</h1>
+        <a href="/graph_ville" class="link">Graphique des déclarations par ville</a>
+        <a href="/graph_type" class="link">Graphique des déclarations par type d'anomalie</a>
+        <a href="/graph_mois" class="link">Graphique des déclarations par mois</a>
+        <a href="/download" class="link">Télécharger les données au format CSV</a>
+    </div>
 </body>
 </html>
