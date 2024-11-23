@@ -14,4 +14,5 @@ RUN pip install --no-cache-dir flask plotly pandas
 EXPOSE 5000
 
 # Commande pour démarrer Flask
-CMD ["python", "webapp/app.py"]
+
+CMD ["python", "webapp/app.py"]  # changer ceci

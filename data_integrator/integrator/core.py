@@ -19,7 +19,7 @@ def create_indicators():
 
     # Lecture des données brutes
     try:
-        raw_data = pd.read_csv(raw_file_path, sep=";")
+        raw_data = pd.read_csv(raw_file_path, sep=None, engine="python")  # Auto-détection du séparateur
         print("Lecture des données brutes réussie. Aperçu :")
         print(raw_data.head())
     except Exception as e:
@@ -27,6 +27,7 @@ def create_indicators():
         return
 
     # Vérifier la présence des colonnes nécessaires
+    print(f"Colonnes détectées : {list(raw_data.columns)}")
     required_columns = ['ville', 'type', 'mois_annee_decla']
     missing_columns = [col for col in required_columns if col not in raw_data.columns]
     if missing_columns:

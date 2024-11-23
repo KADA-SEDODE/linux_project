@@ -39,8 +39,11 @@ def fetch_all_data(limit=100):
     # Sauvegarder les données dans un fichier CSV
     os.makedirs(os.path.dirname(target_path), exist_ok=True)  
     df = pd.DataFrame(all_data)
-    df.to_csv(target_path, index=False)
+    df.to_csv(target_path, index=False) 
     print(f"Les données brutes ont été enregistrées dans {target_path}")
 
 if __name__ == "__main__":
     fetch_all_data()
+
+
+
