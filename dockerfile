@@ -19,15 +19,12 @@ RUN bash ./install.sh
 
 # RUN pip install --no-cache-dir flask plotly pandas
 
-RUN python3 -m pip install -r requirements.txt
+#RUN python3 -m pip install -r requirements.txt
+RUN python3 -m pip install --no-cache-dir -r requirements.txt
 
 # Exposer le port 5000
-EXPOSE 5000
+EXPOSE 5003
 
 # Commande pour démarrer Flask
 
-# CMD ["python", "webapp/app.py"]  # changer ceci
-
-# par 
-
-CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:5000", "webapp.app:app"]
+CMD ["python3", "webapp/app.py"]  # changer ceci

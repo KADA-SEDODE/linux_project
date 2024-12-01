@@ -1,11 +1,45 @@
 import os
 import pandas as pd
 
+# def create_indicators():
+#     print("Début de la création des indicateurs...")
+
+#     # Définir les chemins relatifs
+#     base_path = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))  # Racine du projet
+#     raw_file_path = os.path.join(base_path, "data", "raw", "raw_data.csv")
+#     staged_file_path = os.path.join(base_path, "archived", "staged_data.csv")
+
+#     print(f"Chemin du fichier brut : {raw_file_path}")
+#     print(f"Chemin du fichier transformé : {staged_file_path}")
+
+#     # Vérifier si le fichier brut existe
+#     if not os.path.exists(raw_file_path):
+#         print(f"ERREUR : Le fichier {raw_file_path} n'existe pas.")
+#         return
+
+#     # Lecture des données brutes
+#     try:
+#         raw_data = pd.read_csv(raw_file_path, sep=None, engine="python")  # Auto-détection du séparateur
+#         print("Lecture des données brutes réussie. Aperçu :")
+#         print(raw_data.head())
+#     except Exception as e:
+#         print(f"ERREUR : Impossible de lire le fichier brut. Détails : {e}")
+#         return
+
+#     # Vérifier la présence des colonnes nécessaires
+#     print(f"Colonnes détectées : {list(raw_data.columns)}")
+#     required_columns = ['ville', 'type', 'mois_annee_decla']
+#     missing_columns = [col for col in required_columns if col not in raw_data.columns]
+#     if missing_columns:
+#         print(f"ERREUR : Colonnes manquantes dans raw_data.csv : {missing_columns}")
+#         return
 def create_indicators():
     print("Début de la création des indicateurs...")
 
-    # Définir les chemins relatifs
-    base_path = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))  # Racine du projet
+    # Obtenir le chemin de la racine du projet
+    base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+    # Construire les chemins absolus
     raw_file_path = os.path.join(base_path, "data", "raw", "raw_data.csv")
     staged_file_path = os.path.join(base_path, "archived", "staged_data.csv")
 
@@ -25,15 +59,6 @@ def create_indicators():
     except Exception as e:
         print(f"ERREUR : Impossible de lire le fichier brut. Détails : {e}")
         return
-
-    # Vérifier la présence des colonnes nécessaires
-    print(f"Colonnes détectées : {list(raw_data.columns)}")
-    required_columns = ['ville', 'type', 'mois_annee_decla']
-    missing_columns = [col for col in required_columns if col not in raw_data.columns]
-    if missing_columns:
-        print(f"ERREUR : Colonnes manquantes dans raw_data.csv : {missing_columns}")
-        return
-
     # Transformation des données
     try:
         # Nombre de déclarations par ville
