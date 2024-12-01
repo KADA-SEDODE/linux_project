@@ -26,4 +26,8 @@ EXPOSE 5000
 
 # Commande pour démarrer Flask
 
-CMD ["python", "webapp/app.py"]  # changer ceci
+# CMD ["python", "webapp/app.py"]  # changer ceci
+
+# par 
+
+CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:5000", "webapp.app:app"]

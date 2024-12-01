@@ -30,3 +30,6 @@ tzdata==2023.3
 
 # zipp pour la compatibilité avec certaines dépendances
 zipp==1.0.0
+
+gunicorn==20.1.0
+

@@ -1,21 +1,21 @@
 Ville,Nombre_declarations_ville,Type d'anomalie,Nombre_declarations_anomalie,Mois,Nombre_declarations_mois
-Paris 17,986,Objets abandonnés,3948.0,2023-11,1193.0
-Paris 18,925,"Graffitis, tags, affiches et autocollants",2709.0,2024-06,1152.0
-Paris 20,884,Propreté,1667.0,2024-03,1039.0
-Paris 10,836,"Autos, motos, vélos, trottinettes...",612.0,2024-01,1018.0
-Paris 15,834,Voirie et espace public,385.0,2024-04,968.0
-Paris 19,776,Mobiliers urbains,251.0,2023-09,875.0
-Paris 11,752,Activités commerciales et professionnelles,145.0,2024-05,689.0
-Paris 13,613,"Arbres, végétaux et animaux",131.0,2024-07,674.0
-Paris 12,549,Éclairage / Électricité,102.0,2024-02,588.0
-Paris 09,451,Eau,50.0,2023-12,561.0
-Paris 14,436,,,2023-08,554.0
-Paris 16,430,,,2024-08,434.0
-Paris 08,364,,,2023-10,247.0
-Paris 05,223,,,2023-07,8.0
-Paris 03,217,,,,
-Paris 04,181,,,,
-Paris 07,151,,,,
-Paris 06,137,,,,
-Paris 02,129,,,,
-Paris 01,126,,,,
+Paris 17,1010,Objets abandonnés,3232.0,2024-03,1065.0
+Paris 18,929,"Graffitis, tags, affiches et autocollants",2903.0,2023-10,967.0
+Paris 20,841,Propreté,1674.0,2023-09,913.0
+Paris 15,777,"Autos, motos, vélos, trottinettes...",805.0,2024-04,908.0
+Paris 11,758,Activités commerciales et professionnelles,451.0,2024-01,899.0
+Paris 10,749,Voirie et espace public,389.0,2024-05,862.0
+Paris 19,650,Mobiliers urbains,294.0,2024-02,837.0
+Paris 12,561,Éclairage / Électricité,95.0,2024-06,811.0
+Paris 13,536,"Arbres, végétaux et animaux",94.0,2023-11,792.0
+Paris 09,494,Eau,63.0,2023-08,727.0
+Paris 08,426,,,2023-12,658.0
+Paris 16,425,,,2024-07,366.0
+Paris 14,406,,,2024-08,175.0
+Paris 03,380,,,2023-07,20.0
+Paris 04,239,,,,
+Paris 05,213,,,,
+Paris 02,174,,,,
+Paris 07,156,,,,
+Paris 06,141,,,,
+Paris 01,135,,,,

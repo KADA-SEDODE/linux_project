@@ -1,2 +1,5 @@
 # Ignorer l'environnement virtuel
 .venv/
+
+# Ignorer les logs
+*.log
