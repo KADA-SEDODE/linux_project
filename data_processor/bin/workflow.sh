@@ -1,7 +1,3 @@
-# #!/bin/bash
-# python core.py
-
-
 #!/bin/bash
 
 # Obtenir le chemin absolu du répertoire contenant ce script

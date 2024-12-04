@@ -7,45 +7,62 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
+            background: linear-gradient(to right, #141E30, #243B55);
+            color: #f9f9f9;
             margin: 0;
             padding: 0;
             display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
         }
         h1 {
             color: #4CAF50;
             margin-bottom: 20px;
+            text-align: center;
         }
         .container {
-            background: white;
+            background: #333;
             padding: 20px 40px;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
             text-align: center;
+            width: 90%;
+            max-width: 600px;
         }
         .link {
             display: block;
             margin: 10px 0;
             font-size: 18px;
             text-decoration: none;
-            color: #2196F3;
+            color: #4CAF50;
             font-weight: bold;
             transition: all 0.3s;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.1);
         }
         .link:hover {
-            color: #0d47a1;
-        }
-        .link:hover {
-            color: #0d47a1;
-            text-shadow: 0px 0px 5px rgba(33, 150, 243, 0.8);
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(1.05);
         }
         .logo {
             width: 100px;
             margin-bottom: 20px;
+        }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #ccc;
+            font-size: 14px;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -53,10 +70,19 @@
     <div class="container">
         <img src="/static/logo.png" alt="Logo de l'application" class="logo">
         <h1>Bienvenue sur l'application de visualisation</h1>
+
+        <!-- Liens vers les graphiques -->
         <a href="/graph_ville" class="link">Graphique des déclarations par ville</a>
         <a href="/graph_type" class="link">Graphique des déclarations par type d'anomalie</a>
         <a href="/graph_mois" class="link">Graphique des déclarations par mois</a>
         <a href="/download" class="link">Télécharger les données au format CSV</a>
     </div>
+
+    <!-- Pied de page -->
+    <footer>
+        Développé pour vous offrir une visualisation claire et interactive des déclarations issues de l'Open Data.<br>
+        Explorez les déclarations par ville, type d'anomalie ou mois, et téléchargez les données pour vos analyses.<br>
+        Consultez la <a href="https://github.com/KADA-SEDODE/linux_project" target="_blank">documentation</a> pour plus de détails.
+    </footer>
 </body>
 </html>
