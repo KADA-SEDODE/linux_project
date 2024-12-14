@@ -61,28 +61,25 @@ def display_results():
         )
         fig_type.update_traces(marker_line_color='rgb(0,0,0)', marker_line_width=1.5)
         fig_type.write_html(os.path.join(static_dir, "graph_type.html"))
-
-    # Graphique des déclarations par mois
-    if 'Mois' in data.columns and 'Nombre_declarations_mois' in data.columns:
-        print("Affichage des déclarations par mois...")
-        mois_data = data[['Mois', 'Nombre_declarations_mois']].dropna()
-        fig_mois = go.Figure()
-        fig_mois.add_trace(go.Scatter(
-            x=mois_data['Mois'],
-            y=mois_data['Nombre_declarations_mois'],
-            mode='lines+markers',
-            marker=dict(size=8, color='rgb(0,128,0)'),
-            line=dict(width=2, color='rgb(0,128,0)')
-        ))
-        fig_mois.update_layout(
-            title="Nombre de déclarations par mois",
-            xaxis_title="Mois",
-            yaxis_title="Nombre de déclarations",
+    
+     # Graphique des anomalies par mois et par type
+    if 'Mois' in data.columns and 'Type_d_anomalie' in data.columns and 'Nombre_declarations' in data.columns:
+        print("Affichage des anomalies par mois et par type...")
+        anomalies_data = data[['Mois', 'Type_d_anomalie', 'Nombre_declarations']].dropna()
+        fig_anomalies = px.bar(
+            anomalies_data,
+            x="Mois",
+            y="Nombre_declarations",
+            color="Type_d_anomalie",
+            title="Anomalies par mois et par type",
+            labels={'Nombre_declarations': 'Nombre d\'anomalies', 'Mois': 'Mois', 'Type_d_anomalie': 'Type d\'anomalie'},
             template="plotly_white"
         )
-        fig_mois.write_html(os.path.join(static_dir, "graph_mois.html"))
+        fig_anomalies.update_traces(marker_line_width=1.5)
+        fig_anomalies.write_html(os.path.join(static_dir, "graph_mois.html"))
 
     print("Les graphiques interactifs ont été sauvegardés dans le dossier 'webapp/static'.")
+
 
 if __name__ == "__main__":
     display_results()

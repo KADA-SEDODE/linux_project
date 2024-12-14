@@ -24,6 +24,7 @@ def graph_mois():
     return send_from_directory("static", "graph_mois.html")
 
 @app.route("/download")
+
 def download():
     # Utilisez un chemin absolu pour plus de fiabilité
     file_path = os.path.join(os.path.dirname(__file__), "..", "archived", "staged_data.csv")

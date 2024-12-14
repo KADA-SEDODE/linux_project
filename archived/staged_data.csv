@@ -1,21 +1,134 @@
-Ville,Nombre_declarations_ville,Type d'anomalie,Nombre_declarations_anomalie,Mois,Nombre_declarations_mois
-Paris 18,884,"Graffitis, tags, affiches et autocollants",3656.0,2024-07,1190.0
-Paris 20,870,Objets abandonnés,2320.0,2024-03,1163.0
-Paris 17,857,Propreté,1889.0,2024-08,1082.0
-Paris 10,786,"Autos, motos, vélos, trottinettes...",759.0,2024-06,975.0
-Paris 11,708,Voirie et espace public,468.0,2024-04,911.0
-Paris 19,701,Mobiliers urbains,338.0,2024-02,742.0
-Paris 15,650,"Arbres, végétaux et animaux",243.0,2024-05,734.0
-Paris 13,546,Activités commerciales et professionnelles,144.0,2024-01,729.0
-Paris 12,535,Éclairage / Électricité,118.0,2023-09,529.0
-Paris 09,506,Eau,65.0,2023-11,516.0
-Paris 03,473,,,2023-08,481.0
-Paris 14,397,,,2023-10,479.0
-Paris 16,384,,,2023-12,448.0
-Paris 08,338,,,2023-07,21.0
-Paris 04,335,,,,
-Paris 02,246,,,,
-Paris 01,236,,,,
-Paris 05,215,,,,
-Paris 06,171,,,,
-Paris 07,162,,,,
+Ville,Nombre_declarations_ville,Type d'anomalie,Nombre_declarations_anomalie,Mois,Type_d_anomalie,Nombre_declarations
+Paris 17,958.0,"Graffitis, tags, affiches et autocollants",3434.0,2023-08,Activités commerciales et professionnelles,7
+Paris 18,925.0,Objets abandonnés,2846.0,2023-08,"Arbres, végétaux et animaux",9
+Paris 20,890.0,Propreté,1890.0,2023-08,"Autos, motos, vélos, trottinettes...",17
+Paris 10,808.0,"Autos, motos, vélos, trottinettes...",512.0,2023-08,Eau,4
+Paris 11,783.0,Voirie et espace public,469.0,2023-08,"Graffitis, tags, affiches et autocollants",92
+Paris 15,732.0,Mobiliers urbains,339.0,2023-08,Mobiliers urbains,5
+Paris 19,704.0,"Arbres, végétaux et animaux",193.0,2023-08,Objets abandonnés,124
+Paris 12,556.0,Activités commerciales et professionnelles,170.0,2023-08,Propreté,64
+Paris 13,551.0,Éclairage / Électricité,94.0,2023-08,Voirie et espace public,17
+Paris 09,531.0,Eau,53.0,2023-08,Éclairage / Électricité,3
+Paris 14,438.0,,,2023-09,Activités commerciales et professionnelles,23
+Paris 16,422.0,,,2023-09,"Arbres, végétaux et animaux",6
+Paris 08,353.0,,,2023-09,"Autos, motos, vélos, trottinettes...",35
+Paris 03,253.0,,,2023-09,Eau,5
+Paris 05,215.0,,,2023-09,"Graffitis, tags, affiches et autocollants",113
+Paris 04,208.0,,,2023-09,Mobiliers urbains,12
+Paris 07,181.0,,,2023-09,Objets abandonnés,312
+Paris 01,180.0,,,2023-09,Propreté,95
+Paris 02,168.0,,,2023-09,Voirie et espace public,21
+Paris 06,144.0,,,2023-09,Éclairage / Électricité,2
+,,,,2023-10,Activités commerciales et professionnelles,9
+,,,,2023-10,"Arbres, végétaux et animaux",7
+,,,,2023-10,"Autos, motos, vélos, trottinettes...",17
+,,,,2023-10,"Graffitis, tags, affiches et autocollants",93
+,,,,2023-10,Mobiliers urbains,9
+,,,,2023-10,Objets abandonnés,356
+,,,,2023-10,Propreté,75
+,,,,2023-10,Voirie et espace public,17
+,,,,2023-10,Éclairage / Électricité,2
+,,,,2023-11,Activités commerciales et professionnelles,5
+,,,,2023-11,"Arbres, végétaux et animaux",11
+,,,,2023-11,"Autos, motos, vélos, trottinettes...",12
+,,,,2023-11,"Graffitis, tags, affiches et autocollants",86
+,,,,2023-11,Mobiliers urbains,8
+,,,,2023-11,Objets abandonnés,262
+,,,,2023-11,Propreté,46
+,,,,2023-11,Voirie et espace public,13
+,,,,2023-11,Éclairage / Électricité,5
+,,,,2023-12,Activités commerciales et professionnelles,10
+,,,,2023-12,"Arbres, végétaux et animaux",4
+,,,,2023-12,"Autos, motos, vélos, trottinettes...",5
+,,,,2023-12,Eau,1
+,,,,2023-12,"Graffitis, tags, affiches et autocollants",68
+,,,,2023-12,Mobiliers urbains,6
+,,,,2023-12,Objets abandonnés,255
+,,,,2023-12,Propreté,45
+,,,,2023-12,Voirie et espace public,4
+,,,,2024-01,Activités commerciales et professionnelles,8
+,,,,2024-01,"Arbres, végétaux et animaux",12
+,,,,2024-01,"Autos, motos, vélos, trottinettes...",63
+,,,,2024-01,Eau,6
+,,,,2024-01,"Graffitis, tags, affiches et autocollants",406
+,,,,2024-01,Mobiliers urbains,50
+,,,,2024-01,Objets abandonnés,124
+,,,,2024-01,Propreté,209
+,,,,2024-01,Voirie et espace public,67
+,,,,2024-01,Éclairage / Électricité,18
+,,,,2024-02,Activités commerciales et professionnelles,7
+,,,,2024-02,"Arbres, végétaux et animaux",22
+,,,,2024-02,"Autos, motos, vélos, trottinettes...",66
+,,,,2024-02,Eau,7
+,,,,2024-02,"Graffitis, tags, affiches et autocollants",381
+,,,,2024-02,Mobiliers urbains,47
+,,,,2024-02,Objets abandonnés,117
+,,,,2024-02,Propreté,242
+,,,,2024-02,Voirie et espace public,52
+,,,,2024-02,Éclairage / Électricité,20
+,,,,2024-03,Activités commerciales et professionnelles,16
+,,,,2024-03,"Arbres, végétaux et animaux",37
+,,,,2024-03,"Autos, motos, vélos, trottinettes...",50
+,,,,2024-03,Eau,4
+,,,,2024-03,"Graffitis, tags, affiches et autocollants",474
+,,,,2024-03,Mobiliers urbains,47
+,,,,2024-03,Objets abandonnés,130
+,,,,2024-03,Propreté,179
+,,,,2024-03,Voirie et espace public,73
+,,,,2024-03,Éclairage / Électricité,8
+,,,,2024-04,Activités commerciales et professionnelles,18
+,,,,2024-04,"Arbres, végétaux et animaux",13
+,,,,2024-04,"Autos, motos, vélos, trottinettes...",69
+,,,,2024-04,Eau,5
+,,,,2024-04,"Graffitis, tags, affiches et autocollants",371
+,,,,2024-04,Mobiliers urbains,40
+,,,,2024-04,Objets abandonnés,124
+,,,,2024-04,Propreté,206
+,,,,2024-04,Voirie et espace public,61
+,,,,2024-04,Éclairage / Électricité,10
+,,,,2024-05,Activités commerciales et professionnelles,15
+,,,,2024-05,"Arbres, végétaux et animaux",17
+,,,,2024-05,"Autos, motos, vélos, trottinettes...",63
+,,,,2024-05,Eau,4
+,,,,2024-05,"Graffitis, tags, affiches et autocollants",387
+,,,,2024-05,Mobiliers urbains,29
+,,,,2024-05,Objets abandonnés,130
+,,,,2024-05,Propreté,198
+,,,,2024-05,Voirie et espace public,31
+,,,,2024-05,Éclairage / Électricité,3
+,,,,2024-06,Activités commerciales et professionnelles,18
+,,,,2024-06,"Arbres, végétaux et animaux",17
+,,,,2024-06,"Autos, motos, vélos, trottinettes...",50
+,,,,2024-06,Eau,3
+,,,,2024-06,"Graffitis, tags, affiches et autocollants",463
+,,,,2024-06,Mobiliers urbains,38
+,,,,2024-06,Objets abandonnés,188
+,,,,2024-06,Propreté,174
+,,,,2024-06,Voirie et espace public,45
+,,,,2024-06,Éclairage / Électricité,6
+,,,,2024-07,Activités commerciales et professionnelles,27
+,,,,2024-07,"Arbres, végétaux et animaux",30
+,,,,2024-07,"Autos, motos, vélos, trottinettes...",53
+,,,,2024-07,Eau,11
+,,,,2024-07,"Graffitis, tags, affiches et autocollants",402
+,,,,2024-07,Mobiliers urbains,36
+,,,,2024-07,Objets abandonnés,661
+,,,,2024-07,Propreté,240
+,,,,2024-07,Voirie et espace public,58
+,,,,2024-07,Éclairage / Électricité,12
+,,,,2024-08,Activités commerciales et professionnelles,7
+,,,,2024-08,"Arbres, végétaux et animaux",7
+,,,,2024-08,"Autos, motos, vélos, trottinettes...",12
+,,,,2024-08,Eau,3
+,,,,2024-08,"Graffitis, tags, affiches et autocollants",80
+,,,,2024-08,Mobiliers urbains,11
+,,,,2024-08,Objets abandonnés,61
+,,,,2024-08,Propreté,115
+,,,,2024-08,Voirie et espace public,10
+,,,,2024-08,Éclairage / Électricité,4
+,,,,2024-09,"Arbres, végétaux et animaux",1
+,,,,2024-09,"Graffitis, tags, affiches et autocollants",18
+,,,,2024-09,Mobiliers urbains,1
+,,,,2024-09,Objets abandonnés,2
+,,,,2024-09,Propreté,2
+,,,,2024-09,Éclairage / Électricité,1
