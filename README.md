@@ -22,3 +22,10 @@ L'application permet aux citoyens de signaler divers problèmes tels que :
 ```bash
 git clone https://github.com/KADA-SEDODE/linux_project.git
 cd linux_project
+
+2.**Lancez le script d'installation pour configurer l'environnement (installation des dépendances et préparation de Docker) :**
+bash install.sh
+Accédez à l'application web via votre navigateur à l'adresse suivante :
+
+👉 http://23.100.8.30:5003
+
