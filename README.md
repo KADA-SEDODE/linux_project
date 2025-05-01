@@ -2,7 +2,7 @@
 
 ## 📌 Introduction
 
-Ce projet vise à **collecter, intégrer et visualiser les anomalies signalées dans l'espace public via l'application _Dans Ma Rue_ de la Ville de Paris**.  
+Ce projet vise à **collecter, intégrer et visualiser les anomalies signalées dans l'espace public via cette application _Dans Ma Rue_ de la Ville de Paris que j'ai**.  
 L'application permet aux citoyens de signaler divers problèmes tels que :
 - la propreté
 - les graffitis
