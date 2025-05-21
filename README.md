@@ -29,3 +29,4 @@ bash install.sh
 Accédez à l'application web via votre navigateur à l'adresse suivante :
 👉 http://23.100.8.30:5003
 
+# linux-project
